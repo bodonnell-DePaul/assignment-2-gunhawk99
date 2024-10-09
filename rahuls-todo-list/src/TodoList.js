@@ -72,11 +72,11 @@ function TodoList() {
               <Form.Group className="mb-3">
                 <Form.Label className="text-white" htmlFor="dueDate">Due Date</Form.Label>
                 <Form.Control 
-                  id="dueDate" // Add an id to the input field
+                  id="dueDate" 
                   type="date" 
                   value={newDueDate}
-                  onChange={(e) => setNewDueDate(e.target.value)} // Update new due date
-                  required // Make it a required field
+                  onChange={(e) => setNewDueDate(e.target.value)} 
+                  required 
                 />
               </Form.Group>
               <Button variant="primary" className="btn-block" type="submit">
@@ -99,7 +99,7 @@ function TodoList() {
                       key={index}
                       className={`list-group-item-${getVariant(todo.dueDate)} text-white`}
                     >
-                      {todo.title + " - Incorrect Title"} {/* Change to deliberately fail test */}
+                      {todo.title + " - Incorrect Title"} {}
                     </ListGroup.Item>
                   ))}
                 </ListGroup>

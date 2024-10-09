@@ -1,0 +1,71 @@
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.form-group {
+  background-color: #00ff99; /* Light green background for form */
+  padding: 20px; /* Add more padding for better layout */
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #0066ff; /* Blue color for Add Todo button */
+  border: none;
+}
+
+.list-group {
+  padding: 10px; /* Adds padding to the list group */
+}
+
+.list-group-item {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.tab-content {
+  padding: 20px;
+}
+
+.list-group-item.primary {
+  background-color: #cce5ff; /* Light blue for primary */
+}
+
+.list-group-item.success {
+  background-color: #d4edda; /* Light green for success */
+}
+
+.list-group-item.warning {
+  background-color: #fff3cd; /* Light yellow for warning */
+}
+
+.list-group-item.danger {
+  background-color: #f8d7da; /* Light red for danger */
+}
+
+/* App.css */
+
+.bg-danger {
+  background-color: #800000; /* Maroon */
+}
+
+.bg-warning {
+  background-color: #fff3cd; /* Light Yellow */
+}
+
+.bg-success {
+  background-color: #d4edda; /* Light Green */
+}
+
+.bg-primary {
+  background-color: #cce5ff; /* Light Blue */
+}
+
